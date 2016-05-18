@@ -117,9 +117,7 @@ def main():
     stop = False
     maxIteration = 100
     iterations = 0
-    
-    #filename = "testData.txt"
-    #numOfClusters = 4
+ 
     numOfClusters = int(sys.argv[1])
     filename = str(sys.argv[2])
     
